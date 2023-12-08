@@ -1,0 +1,432 @@
+{
+  "geography":{
+    "easy":[
+      {
+        "question":"Quốc gia nào có diện tích rộng nhất thế giới?",
+        "answer1":"Trung Quốc",
+        "answer2":"Nga",
+        "answer3":"Mỹ",
+        "answer4":"Canada",
+        "correct":"Nga"
+      },
+      {
+        "question":"Washington D.C là thủ đô của nước nào?",
+        "answer1":"Anh",
+        "answer2":"Hà Lan",
+        "answer3":"Brazil",
+        "answer4":"Mỹ",
+        "correct":"Mỹ"
+      },
+      {
+        "question":"Đỉnh núi cao nhất thế giới (tính từ mặt nước biển) tên gì?",
+        "answer1":"Kanchenjunga",
+        "answer2":"Phú Sĩ",
+        "answer3":"Noshaq",
+        "answer4":"Everest",
+        "correct":"Everest"
+      },
+      {
+        "question":"Đâu là tên châu lục trên thế giới?",
+        "answer1":"Á - Âu",
+        "answer2":"Đại Dương",
+        "answer3":"Bắc Mỹ",
+        "answer4":"Nam Cực",
+        "correct":"Đại Dương"
+      },
+      {
+        "question":"Việt Nam thuộc múi giờ số mấy?",
+        "answer1":"7",
+        "answer2":"3",
+        "answer3":"6",
+        "answer4":"8",
+        "correct":"7"
+      }
+    ],
+    "hard":[
+      {
+        "question":"Quốc gia nào có diện tích bé nhất thế giới?",
+        "answer1":"Cộng hoà Malta",
+        "answer2":"Grenada",
+        "answer3":"Monaco",
+        "answer4":"Vatican",
+        "correct":"Vatican"
+      },
+      {
+        "question":"Canberra là thủ đô của nước nào?",
+        "answer1":"Greenland",
+        "answer2":"Australia",
+        "answer3":"Mông Cổ",
+        "answer4":"Bolivia",
+        "correct":"Australia"
+      },
+      {
+        "question":"Châu lục nào có nhiều quốc gia nhất?",
+        "answer1":"Châu Phi",
+        "answer2":"Châu Á",
+        "answer3":"Châu Âu",
+        "answer4":"Châu Mỹ",
+        "correct":"Châu Phi"
+      },
+      {
+        "question":"Trên thế giới có các lục địa?",
+        "answer1":"Á - Âu, Phi, Bắc Mĩ, Nam Mĩ, Australia, Nam Cực",
+        "answer2":"Á, Âu, Mĩ, Phi, Australia, Nam Cực",
+        "answer3":"Âu, Á, Phi, Bắc Mĩ, Nam Mĩ, Bắc Cực",
+        "answer4":"Phi, Mĩ, Australia và Đại dương, Nam Cực, Bắc Cực",
+        "correct":"Á - Âu, Phi, Bắc Mĩ, Nam Mĩ, Ôx-trây-li-a, Nam Cực"
+      },
+      {
+        "question":"Trên thế giới có những đại dương?",
+        "answer1":"Thái Bình Dương, Ấn Độ Dương và Bắc Băng Dương",
+        "answer2":"Đại Tây Dương, Thái Bình Dương, Biển Đông Dương và Bắc Băng Dương",
+        "answer3":"Thái Bình Dương, Đại Tây Dương, Ấn Độ Dương và Bắc Băng Dương",
+        "answer4":"Ấn Độ Dương, Thái Bình, Đại Tây Dương và Bắc Băng Dương",
+        "correct":"Thái Bình Dương, Đại Tây Dương, Ấn Độ Dương và Bắc Băng Dương"
+      }
+    ]
+  },
+  "history":{
+    "easy":[
+      {
+        "question":"Ai đã khám phá Tân Thế giới?",
+        "answer1":"Pytheas ",
+        "answer2":"Ferdinand Magellan",
+        "answer3":"Christopher Columbus",
+        "answer4":"Marco Polo",
+        "correct":"Christopher Columbus"
+      },
+      {
+        "question":"Ai là người đầu tiên đi bộ trên mặt trăng?",
+        "answer1":"Pete Conrad",
+        "answer2":"Neil Armstrong",
+        "answer3":"Alan Bean",
+        "answer4":"Buzz Aldrin",
+        "correct":"Neil Armstrong"
+      },
+      {
+        "question":"Triều đại nào được coi là thời kỳ hoàng kim trong lịch sử Trung Quốc?",
+        "answer1":"Nhà Hán",
+        "answer2":"Nhà Tần",
+        "answer3":"Nhà Thanh",
+        "answer4":"Nhà Đường",
+        "correct":"Nhà Đường"
+      },
+      {
+        "question":"Giấy là phát minh của quốc gia nào?",
+        "answer1":"Tây Ban Nha",
+        "answer2":"Hy Lạp",
+        "answer3":"Trung Quốc",
+        "answer4":"Ấn Độ",
+        "correct":"Trung Quốc"
+      },
+      {
+        "question":"Trong thời kì Pháp thuộc, quốc gia nào không thuộc các nước Đông Dương?",
+        "answer1":"Việt Nam",
+        "answer2":"Indonesia",
+        "answer3":"Lào",
+        "answer4":"Campuchia",
+        "correct":"Indonesia"
+      }
+    ],
+    "hard":[
+      {
+        "question":"John F. Kennedy bị ám sát vào năm nào?",
+        "answer1":"1961",
+        "answer2":"1962",
+        "answer3":"1963",
+        "answer4":"1964",
+        "correct":"1963"
+      },
+      {
+        "question":"Ai là người sáng lập Đảng cộng sản?",
+        "answer1":"Karl Marx",
+        "answer2":"Friedrich Engels",
+        "answer3":"Vladimir Ilyich Lenin",
+        "answer4":"Charles Fourier",
+        "correct":"Vladimir Ilyich Lenin"
+      },
+      {
+        "question":"Sau Lenin, ai chính thức là lãnh đạo Liên Xô?",
+        "answer1":"Joseph Stalin",
+        "answer2":"Boris Nikolayevich Yeltsin",
+        "answer3":"Vladimir Vladimirovich Putin",
+        "answer4":"Dmitry Anatolyevich Medvedev",
+        "correct":"Joseph Stalin"
+      },
+      {
+        "question":"Vị vua nào đặt tên nước là Đại Việt?",
+        "answer1":"Lý Công Uẩn",
+        "answer2":"Trần Nhân Tông",
+        "answer3":"Lý Thái Tông",
+        "answer4":"Lê Lợi",
+        "correct":"Lê Lợi"
+      },
+      {
+        "question":"Ai là người bôn ba tổ chức phong trào Đông Du?",
+        "answer1":"Đinh Tiên Hoàng",
+        "answer2":"Ngô Quyền",
+        "answer3":"Yết Kiêu",
+        "answer4":"Đội Cấn",
+        "correct":"Yết Kiêu"
+      }
+    ]
+  },
+  "science": {
+    "easy": [
+      {
+        "question": "Loài động vật nào có khả năng bay cao nhất?",
+        "answer1": "Bò sát",
+        "answer2": "Chim",
+        "answer3": "Cá",
+        "answer4": "Động vật có vú",
+        "correct": "Chim"
+      },
+      {
+        "question": "Công thức hóa học của nước là gì?",
+        "answer1": "H2O",
+        "answer2": "CO2",
+        "answer3": "O2",
+        "answer4": "NH3",
+        "correct": "H2O"
+      },
+      {
+        "question": "Ngành nghề nào nghiên cứu về các hành tinh, ngôi sao và vũ trụ?",
+        "answer1": "Hóa học",
+        "answer2": "Sinh học",
+        "answer3": "Vật lý",
+        "answer4": "Thiên văn học",
+        "correct": "Thiên văn học"
+      },
+      {
+        "question": "Các tế bào của cơ thể người chúng ta chia thành bao nhiêu loại chính?",
+        "answer1": "1",
+        "answer2": "2",
+        "answer3": "3",
+        "answer4": "4",
+        "correct": "4"
+      },
+      {
+        "question": "Nguyên tử là thành phần cơ bản nhất của gì?",
+        "answer1": "Phân tử",
+        "answer2": "Nguyên tố hóa học",
+        "answer3": "Vi khuẩn",
+        "answer4": "Tế bào",
+        "correct": "Nguyên tố hóa học"
+      }
+    ],
+    "hard": [
+      {
+        "question": "Phương pháp nào được sử dụng để xác định tuổi của các hóa thạch và đá cổ?",
+        "answer1": "Đo radio carbon",
+        "answer2": "Phân tích đồng vị",
+        "answer3": "Phương pháp lượng tử",
+        "answer4": "Spectroscopy",
+        "correct": "Đo radio carbon"
+      },
+      {
+        "question": "Loài động vật nào đã được giới khoa học tái tạo thành công từ tế bào gốc?",
+        "answer1": "Thằn lằn",
+        "answer2": "Con người",
+        "answer3": "Chó",
+        "answer4": "Chim",
+        "correct": "Thằn lằn"
+      },
+      {
+        "question": "Hạt Higgs là một phần của lĩnh vực nào trong vật lý?",
+        "answer1": "Vật lý hạt nhân",
+        "answer2": "Vật lý lượng tử",
+        "answer3": "Vật lý hạt cơ bản",
+        "answer4": "Vật lý thống kê",
+        "correct": "Vật lý hạt cơ bản"
+      },
+      {
+        "question": "Kỹ thuật CRISPR được sử dụng cho mục đích gì trong lĩnh vực y học?",
+        "answer1": "Tái tạo tế bào gốc",
+        "answer2": "Chỉnh sửa gen",
+        "answer3": "Chẩn đoán bệnh",
+        "answer4": "Tạo ra virus",
+        "correct": "Chỉnh sửa gen"
+      },
+      {
+        "question": "Khám phá nào đã đưa ra bằng chứng cho việc vũ trụ đang mở rộng?",
+        "answer1": "Einstein",
+        "answer2": "Hubble",
+        "answer3": "Newton",
+        "answer4": "Galileo",
+        "correct": "Hubble"
+      }
+    ]
+  },
+  "art": {
+    "easy": [
+      {
+        "question": "Ai là ca sĩ nổi tiếng với bài hát 'Shape of You'?",
+        "answer1": "Ed Sheeran",
+        "answer2": "Justin Bieber",
+        "answer3": "Adele",
+        "answer4": "Taylor Swift",
+        "correct": "Ed Sheeran"
+      },
+      {
+        "question": "Bộ phim nào được công chúng biết đến với nhân vật Harry Potter?",
+        "answer1": "The Lord of the Rings",
+        "answer2": "Twilight",
+        "answer3": "Star Wars",
+        "answer4": "Harry Potter",
+        "correct": "Harry Potter"
+      },
+      {
+        "question": "Ca khúc 'Billie Jean' là của nghệ sĩ nào?",
+        "answer1": "Michael Jackson",
+        "answer2": "Prince",
+        "answer3": "Madonna",
+        "answer4": "Whitney Houston",
+        "correct": "Michael Jackson"
+      },
+      {
+        "question": "Đạo diễn nào nổi tiếng với loạt phim 'Inception' và 'The Dark Knight'?",
+        "answer1": "Quentin Tarantino",
+        "answer2": "Christopher Nolan",
+        "answer3": "Steven Spielberg",
+        "answer4": "Martin Scorsese",
+        "correct": "Christopher Nolan"
+      },
+      {
+        "question": "Nhóm nhạc nào nổi tiếng với ca khúc 'Bohemian Rhapsody'?",
+        "answer1": "The Rolling Stones",
+        "answer2": "Queen",
+        "answer3": "The Beatles",
+        "answer4": "Led Zeppelin",
+        "correct": "Queen"
+      }
+    ],
+    "hard": [
+      {
+        "question": "Ngày ra mắt của bộ phim 'Titanic' là khi nào?",
+        "answer1": "1995",
+        "answer2": "1997",
+        "answer3": "2000",
+        "answer4": "2002",
+        "correct": "1997"
+      },
+      {
+        "question": "Đạo diễn nào đã đoạt giải Oscar cho bộ phim 'The Revenant'?",
+        "answer1": "Christopher Nolan",
+        "answer2": "Quentin Tarantino",
+        "answer3": "James Cameron",
+        "answer4": "Alejandro G. Iñárritu",
+        "correct": "Alejandro G. Iñárritu"
+      },
+      {
+        "question": "Ca khúc 'Hey Jude' là của nhóm nhạc nào?",
+        "answer1": "The Rolling Stones",
+        "answer2": "The Beatles",
+        "answer3": "The Beach Boys",
+        "answer4": "The Eagles",
+        "correct": "The Beatles"
+      },
+      {
+        "question": "Nữ diễn viên nào đóng vai Katniss Everdeen trong loạt phim 'The Hunger Games'?",
+        "answer1": "Jennifer Aniston",
+        "answer2": "Emma Stone",
+        "answer3": "Scarlett Johansson",
+        "answer4": "Jennifer Lawrence",
+        "correct": "Jennifer Lawrence"
+      },
+      {
+        "question": "Ca khúc 'Bohemian Rhapsody' của Queen có độ dài bao nhiêu?",
+        "answer1": "4 phút",
+        "answer2": "6 phút",
+        "answer3": "8 phút",
+        "answer4": "10 phút",
+        "correct": "6 phút"
+      }
+    ]
+  },
+  "technology": {
+    "easy": [
+      {
+        "question": "Ngôn ngữ lập trình nào được sử dụng chủ yếu cho phát triển trang web?",
+        "answer1": "Java",
+        "answer2": "Python",
+        "answer3": "JavaScript",
+        "answer4": "C++",
+        "correct": "JavaScript"
+      },
+      {
+        "question": "Ngôn ngữ lập trình nào thường được sử dụng cho phân tích dữ liệu và machine learning?",
+        "answer1": "R",
+        "answer2": "Swift",
+        "answer3": "Ruby",
+        "answer4": "Go",
+        "correct": "R"
+      },
+      {
+        "question": "Ai là người sáng lập ngôn ngữ lập trình Python?",
+        "answer1": "Mark Zuckerberg",
+        "answer2": "Guido van Rossum",
+        "answer3": "Elon Musk",
+        "answer4": "Larry Page",
+        "correct": "Guido van Rossum"
+      },
+      {
+        "question": "Ngôn ngữ lập trình nào được sử dụng cho phát triển ứng dụng di động trên nền tảng iOS?",
+        "answer1": "Java",
+        "answer2": "Swift",
+        "answer3": "Kotlin",
+        "answer4": "Objective-C",
+        "correct": "Swift"
+      },
+      {
+        "question": "Framework nào thường được sử dụng cho phát triển ứng dụng web đơn trang (SPA)?",
+        "answer1": "React",
+        "answer2": "Angular",
+        "answer3": "Vue.js",
+        "answer4": "Django",
+        "correct": "React"
+      }
+    ],
+    "hard": [
+      {
+        "question": "Ngôn ngữ lập trình Rust được phát triển bởi công ty nào?",
+        "answer1": "Google",
+        "answer2": "Mozilla",
+        "answer3": "Microsoft",
+        "answer4": "Apple",
+        "correct": "Mozilla"
+      },
+      {
+        "question": "Ngôn ngữ lập trình nào được sử dụng chủ yếu cho phát triển trí tuệ nhân tạo và machine learning?",
+        "answer1": "Java",
+        "answer2": "Python",
+        "answer3": "C++",
+        "answer4": "Scala",
+        "correct": "Python"
+      },
+      {
+        "question": "Ngôn ngữ lập trình Swift được phát triển bởi công ty nào?",
+        "answer1": "Microsoft",
+        "answer2": "Apple",
+        "answer3": "Google",
+        "answer4": "Facebook",
+        "correct": "Apple"
+      },
+      {
+        "question": "Ngôn ngữ lập trình nào thường được sử dụng cho phát triển ứng dụng Android?",
+        "answer1": "Java",
+        "answer2": "Kotlin",
+        "answer3": "C#",
+        "answer4": "Objective-C",
+        "correct": "Kotlin"
+      },
+      {
+        "question": "Framework Django được sử dụng cho phát triển ứng dụng web bằng ngôn ngữ lập trình nào?",
+        "answer1": "Ruby",
+        "answer2": "Python",
+        "answer3": "PHP",
+        "answer4": "JavaScript",
+        "correct": "Python"
+      }
+    ]
+  }
+}

@@ -49,7 +49,7 @@ public class TopicAdapter extends BaseAdapter { // kế thừa BaseAdapter - Ada
         if (convertView == null){
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE); // Lấy layout chèn vào
 
-            viewHolder = new ViewHolder();
+            viewHolder = new ViewHolder(); // viewHolder mục đích để cho tránh việc load lại những item đã khuất khỏi màn hình
 
             convertView = inflater.inflate(layout, null);
 
