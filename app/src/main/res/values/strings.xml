@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GoQuizz</string>
+    <string name="introduce">
+        Chào mừng các bạn đã đến với trò chơi GoQuiz\nTrò chơi này được viết bởi Nguyễn Trí Thành\nTrong trò chơi này, bạn phải trả lời các câu hỏi ở 5 chủ đề khác nhau\nCác chủ đề bao gồm: Địa lý, Lịch sử, Khoa học, Nghệ thuật, Công nghệ.\nCác câu hỏi có 2 cấp độ Dễ và Khó, bạn có thể lựa chọn để chơi\nThành tích giữa các lần chơi của bạn sẽ được hệ thống lưu lại và show ra khi bạn trả lời sai\nTổng điểm qua các lần chơi sẽ được hiển thị qua mục Total Scrore\nTrong các lần chơi, các bạn có thể chia sẻ thành tích qua tin nhắn cho bạn bè\nChúc các bạn chơi game vui vẻ
+    </string>
+
+</resources>
