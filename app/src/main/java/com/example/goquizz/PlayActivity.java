@@ -23,6 +23,7 @@ import java.util.List;
 public class PlayActivity extends AppCompatActivity {
 
     TextView txtQuestion;
+    RadioGroup rdg;
     RadioButton rdanswer1, rdanswer2, rdanswer3, rdanswer4;
     Button btnAnswer;
     String topicName, Level, crtQues;
@@ -59,7 +60,11 @@ public class PlayActivity extends AppCompatActivity {
                     Toast.makeText(PlayActivity.this, "Hãy chọn một đáp án", Toast.LENGTH_SHORT).show();
                 }
                 else{
-                    if (questionList.get(currentQuestion).getAnswer1().equals(questionList.get(currentQuestion).getCorrect())){
+                    if (rdanswer1.isChecked()) crtQues = rdanswer1.getText().toString();
+                    else if (rdanswer2.isChecked()) crtQues = rdanswer2.getText().toString();
+                    else if (rdanswer3.isChecked()) crtQues = rdanswer3.getText().toString();
+                    else if (rdanswer4.isChecked()) crtQues = rdanswer4.getText().toString();
+                    if (crtQues.equals(questionList.get(currentQuestion).getCorrect())){
                         //correct
                         correct++;
                     }else {
@@ -71,6 +76,7 @@ public class PlayActivity extends AppCompatActivity {
                     if (currentQuestion<questionList.size()-1){
                         currentQuestion++;
                         setQuestionScreen(currentQuestion);
+                        rdg.clearCheck();
                     }else{
                         //game over
                         Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
@@ -144,6 +150,7 @@ public class PlayActivity extends AppCompatActivity {
 
     private void Mapping(){
         txtQuestion =   (TextView) findViewById(R.id.textViewQuestion);
+        rdg =           (RadioGroup) findViewById(R.id.radioGroup);
         rdanswer1 =     (RadioButton) findViewById(R.id.answer1);
         rdanswer2 =     (RadioButton) findViewById(R.id.answer2);
         rdanswer3 =     (RadioButton) findViewById(R.id.answer3);
