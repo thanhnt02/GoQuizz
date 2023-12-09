@@ -29,6 +29,12 @@ public class PlayActivity extends AppCompatActivity {
     String topicName, Level, crtQues;
     int currentQuestion = 0;
     int correct = 0;
+    int point = 0;
+
+    // hai biến có chức năng lưu lại topicName và level người dùng chọn (dùng để set sự kiện khi người dùng ấn Chơi Lại
+    private String savedTopicName;
+    private String savedLevel;
+    int totalScore;
 
     List<QuestionList> questionList;
 
@@ -39,14 +45,25 @@ public class PlayActivity extends AppCompatActivity {
 
         Mapping();
 
-        topicName = getIntent().getStringExtra("TopicName");
-        if (topicName.equals("Địa lý")) topicName = "geography";
-        else if (topicName.equals("Lịch sử")) topicName = "history";
-        else if (topicName.equals("Khoa học")) topicName = "science";
-        else if (topicName.equals("Nghệ thuật")) topicName = "art";
-        else if (topicName.equals("Công nghệ")) topicName = "technology";
+        totalScore = getIntent().getIntExtra("TotalScore", 0);
 
-        Level = getIntent().getStringExtra("Level");
+        savedTopicName = getIntent().getStringExtra("savedTopicName");
+        savedLevel = getIntent().getStringExtra("savedLevel");
+
+        if (savedTopicName == null || savedLevel == null){
+            topicName = getIntent().getStringExtra("TopicName");
+            if (topicName.equals("Địa lý")) topicName = "geography";
+            else if (topicName.equals("Lịch sử")) topicName = "history";
+            else if (topicName.equals("Khoa học")) topicName = "science";
+            else if (topicName.equals("Nghệ thuật")) topicName = "art";
+            else if (topicName.equals("Công nghệ")) topicName = "technology";
+            Level = getIntent().getStringExtra("Level");
+        }
+        else{
+            topicName = savedTopicName;
+            Level = savedLevel;
+        }
+
 
         //load toàn bộ câu hỏi
         loadAllQuestions();
@@ -67,13 +84,20 @@ public class PlayActivity extends AppCompatActivity {
                     if (crtQues.equals(questionList.get(currentQuestion).getCorrect())){
                         //correct
                         correct++;
+                        if (Level.equals("easy")) point += 1;
+                        else if (Level.equals("hard")) point += 2;
                     }else {
                         Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
                         intent.putExtra("CorrectAnswer", correct);
+                        intent.putExtra("savedTopicName", topicName);
+                        intent.putExtra("savedLevel", Level);
+                        intent.putExtra("Point", point);
+                        intent.putExtra("TotalScore", totalScore);
                         startActivity(intent);
+                        finish();
                     }
                     //load next question if any
-                    if (currentQuestion<questionList.size()-1){
+                    if (currentQuestion<questionList.size() - 1){
                         currentQuestion++;
                         setQuestionScreen(currentQuestion);
                         rdg.clearCheck();
@@ -81,6 +105,10 @@ public class PlayActivity extends AppCompatActivity {
                         //game over
                         Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
                         intent.putExtra("CorrectAnswer", correct);
+                        intent.putExtra("savedTopicName", topicName);
+                        intent.putExtra("savedLevel", Level);
+                        intent.putExtra("Point", point);
+                        intent.putExtra("TotalScore", totalScore);
                         startActivity(intent);
                         finish();
                     }
@@ -157,4 +185,5 @@ public class PlayActivity extends AppCompatActivity {
         rdanswer4 =     (RadioButton) findViewById(R.id.answer4);
         btnAnswer =     (Button) findViewById(R.id.buttonAnswer);
     }
+
 }
