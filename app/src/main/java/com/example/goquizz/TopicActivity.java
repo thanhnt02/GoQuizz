@@ -17,7 +17,7 @@ import java.util.Map;
 
 public class TopicActivity extends AppCompatActivity {
 
-    private static final int YOUR_REQUEST_CODE = 1;
+    Button btnList;
 
     ListView lsTopic;
     ArrayList<Topic> arrayTopic;
@@ -61,12 +61,22 @@ public class TopicActivity extends AppCompatActivity {
                 }
             }
         });
+
+        btnList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ListQuestionActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void Mapping(){
         swLevel = (Switch) findViewById(R.id.switchLevel);
         lsTopic = (ListView) findViewById(R.id.listviewTopic);
         txtTotal = (TextView) findViewById(R.id.textViewTotal);
+        btnList = (Button) findViewById(R.id.buttonList);
         arrayTopic = new ArrayList<>();
         arrayTopic.add(new Topic("Địa lý", "Chủ đề liên quan đến vùng đất, địa hình, dân cư trên Trái Đất", R.drawable.geography));
         arrayTopic.add(new Topic("Lịch sử", "Chủ đề liên quan đến các sự kiện lớn trong việc hình thành lên xã hội hiện tại", R.drawable.history));

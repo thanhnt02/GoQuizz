@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Địa lý"
+        android:id="@+id/geography"/>
+    <item
+        android:title="Lịch sử"
+        android:id="@+id/history"/>
+    <item
+        android:title="Khoa học"
+        android:id="@+id/science"/>
+    <item
+        android:title="Nghệ thuật"
+        android:id="@+id/art"/>
+    <item
+        android:title="Công nghệ"
+        android:id="@+id/techonoly"/>
+
+</menu>
