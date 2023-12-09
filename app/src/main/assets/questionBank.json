@@ -68,20 +68,20 @@
         "correct":"Châu Phi"
       },
       {
-        "question":"Trên thế giới có các lục địa?",
-        "answer1":"Á - Âu, Phi, Bắc Mĩ, Nam Mĩ, Australia, Nam Cực",
-        "answer2":"Á, Âu, Mĩ, Phi, Australia, Nam Cực",
-        "answer3":"Âu, Á, Phi, Bắc Mĩ, Nam Mĩ, Bắc Cực",
-        "answer4":"Phi, Mĩ, Australia và Đại dương, Nam Cực, Bắc Cực",
-        "correct":"Á - Âu, Phi, Bắc Mĩ, Nam Mĩ, Ôx-trây-li-a, Nam Cực"
+        "question": "Núi Kilimanjaro nằm ở quốc gia nào?",
+        "answer1": "Kenya",
+        "answer2": "Tanzania",
+        "answer3": "Uganda",
+        "answer4": "Rwanda",
+        "correct": "Tanzania"
       },
       {
-        "question":"Trên thế giới có những đại dương?",
-        "answer1":"Thái Bình Dương, Ấn Độ Dương và Bắc Băng Dương",
-        "answer2":"Đại Tây Dương, Thái Bình Dương, Biển Đông Dương và Bắc Băng Dương",
-        "answer3":"Thái Bình Dương, Đại Tây Dương, Ấn Độ Dương và Bắc Băng Dương",
-        "answer4":"Ấn Độ Dương, Thái Bình, Đại Tây Dương và Bắc Băng Dương",
-        "correct":"Thái Bình Dương, Đại Tây Dương, Ấn Độ Dương và Bắc Băng Dương"
+        "question": "Đảo Hòa Bình nằm ở quốc gia nào?",
+        "answer1": "Philippines",
+        "answer2": "Indonesia",
+        "answer3": "Malaysia",
+        "answer4": "Brunei",
+        "correct": "Indonesia"
       }
     ]
   },
