@@ -27,13 +27,8 @@ public class ListQuestionActivity extends AppCompatActivity {
 
     Button btnSelect;
     ListView lsQuestion;
-    ArrayList<String> arrayQuestion;
-    ArrayList<String> arrayLevel;
-    ArrayList<String> arrayAnswer1;
-    ArrayList<String> arrayAnswer2;
-    ArrayList<String> arrayAnswer3;
-    ArrayList<String> arrayAnswer4;
-    ArrayList<String> arrayCorrect;
+    ArrayList<String> arrayQuestion, arrayLevel, arrayAnswer1, arrayAnswer2, arrayAnswer3, arrayAnswer4, arrayCorrect;
+
     List<QuestionList> questionList;
     String topicName, Level;
 
@@ -74,6 +69,7 @@ public class ListQuestionActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // position: là biến trả về vị trí của mảng, bắt đầu từ 0
                 Intent intent = new Intent(getApplicationContext(), FinalActivity.class);
+                // Gửi toàn bộ dữ kiện về Câu hỏi, level, các đáp án, đáp án đúng qua màn hình cuối cùng
                 intent.putExtra("Question", arrayQuestion.get(position));
                 intent.putExtra("Level", arrayLevel.get(position));
                 intent.putExtra("Answer1", arrayAnswer1.get(position));
