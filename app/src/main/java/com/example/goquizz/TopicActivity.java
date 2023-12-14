@@ -3,7 +3,9 @@ package com.example.goquizz;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -25,6 +27,7 @@ public class TopicActivity extends AppCompatActivity {
     Switch swLevel;
     TextView txtTotal;
     int totalScore = 0;
+    int point;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +41,19 @@ public class TopicActivity extends AppCompatActivity {
         lsTopic.setAdapter(adapter); //show ra listview trên màn hình
 
         int point = getIntent().getIntExtra("TotalScore", 0);
+
+//        // Lấy dữ liệu từ SharePreference
+//        SharedPreferences preferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
+//        int savedTotalScore = preferences.getInt("totalScore", 0);
+//
+//        // Kiểm tra nếu giá trị đã được lưu trước đó
+//        if (savedTotalScore != 0) {
+//            point = savedTotalScore;
+//        }
+
+
+
+
 
         txtTotal.setText(point + " pts");
 
