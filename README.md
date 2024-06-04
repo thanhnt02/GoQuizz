@@ -18,12 +18,12 @@
 <div class="image d-flex" style="display: flex; flex-wrap: nowrap">
   <div>
   <li>Màn hình chào mừng</li>
-    <img src="./image/image2.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
+    <img src="./image/image2.png" width="50%" style='border-radius: 10px; margin-bottom: 20px;'/>
   </div>
   
   <div>
   <li>Màn hình chọn chủ đề / độ khó</li>
-    <img src="./image/image4.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
+    <img src="./image/image4.png" width="50%" style='border-radius: 10px; margin-bottom: 20px;'/>
   </div>
 </div>
 
