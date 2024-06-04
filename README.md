@@ -30,23 +30,23 @@
 <div class="image d-flex" style="display: flex">
   <div>
   <li>Màn hình trả lời câu hỏi</li>
-    <img src="./image/image6.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
+    <img src="./image/image6.png" width="50%" style='border-radius: 10px; margin-bottom: 20px;'/>
   </div>
   
   <div>
   <li>Màn hình kết quả</li>
-    <img src="./image/image8.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
+    <img src="./image/image8.png" width="50%" style='border-radius: 10px; margin-bottom: 20px;'/>
   </div>
 </div>
 
 <div class="image d-flex" style="display: flex">
   <div>
   <li>Màn hình danh sách câu hỏi</li>
-    <img src="./image/image10.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
+    <img src="./image/image10.png" width="50%" style='border-radius: 10px; margin-bottom: 20px;'/>
   </div>
   
   <div>
   <li>Màn hình chi tiết câu hỏi + đáp án</li>
-    <img src="./image/image12.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
+    <img src="./image/image12.png" width="50%" style='border-radius: 10px; margin-bottom: 20px;'/>
   </div>
 </div>
