@@ -15,7 +15,7 @@
 
 ## Một số hình ảnh ứng dụng
 
-<div class="image d-flex" style="display: flex">
+<div class="image d-flex" style="display: flex; flex-wrap: nowrap">
   <div>
   <li>Màn hình chào mừng</li>
     <img src="./image/image2.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
